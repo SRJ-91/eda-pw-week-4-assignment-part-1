@@ -21,16 +21,16 @@ function helloName(name) {
 console.log(helloName('Marcus'));
 
 // 3. Function to add two numbers together & return the result
-function addNumbers(firstNumber) {
-  // return firstNumber + secondNumber;
+function addNumbers(firstNumber, secondNumber) {
+  return firstNumber + secondNumber;
 }
-
+console.log(addNumbers(10, 5))
 
 // 4. Function to multiply three numbers & return the result
-function multiplyThree() {
-
+function multiplyThree(num1, num2, num3) {
+  return num1 * num2 * num3;
 }
-
+console.log(multiplyThree(5, 2, 10));
 
 // 5. Function that will return true if a number is positive, 
 //    or greater than zero, and false otherwise
