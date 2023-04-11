@@ -61,16 +61,16 @@ console.log(getLast([1, 2, 3, 4, 5]));
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
 
 function find(value, array) {
-  for (let i = 0; i < array.length; i++)
+  for (let i = 0; i < array.length; i++) {
     if (array[i] === value) {
-      return True;
-    } else {
-      return false;
+      return true;
     }
+  }
+  return false;
 }
 
 
-console.log(find(3, [1, 2, 4, 5, 5]));
+console.log(find(3, [1, 2, 3, 4, 5,]));
 
 
 // ----------------------
